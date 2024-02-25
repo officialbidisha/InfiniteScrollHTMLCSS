@@ -1,0 +1,25 @@
+.list li{
+    height: 20px;
+    width: calc(100% - 10px);
+    border: 1px splid green;
+    border-radius: 10px;
+    background-color: grey;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    margin: 5px 0;
+    padding: 5px 2px;
+    list-style-type: none;
+}
+
+.list{
+    padding: 5px;
+    border: 5px solid palevioletred;
+    border-radius: 10px;
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+}
+
+.more{
+    display: block;
+}
